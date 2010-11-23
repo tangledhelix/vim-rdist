@@ -1,7 +1,7 @@
 " Vim syntax file
 " Language:     Rdist
 " Maintainer:   Dan Lowe <dan@tangledhelix.com>
-" URL:          <none>
+" URL:          https://github.com/tangledhelix/vim-rdist
 " Last Change:  2010/Oct/10
 
 " For version 5.x: Clear all syntax items
