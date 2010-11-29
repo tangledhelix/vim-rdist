@@ -16,9 +16,10 @@ If you use [Pathogen][]:
 	git clone https://github.com/tangledhelix/vim-rdist.git rdist
 
 If the syntax is not autodetected, you can add an autocommand to `~/.vimrc`
-for whatever filename(s) you use for Rdist files.
+for whatever filename(s) you use for Rdist files. It should auto-detect
+`distfile` and `Distfile`.
 
-	autocmd BufNewFile,BufRead Distfile setfiletype rdist
+	autocmd BufNewFile,BufRead distfile.local setfiletype rdist
 
 [vim]: http://www.vim.org/
 [rdist]: http://www.magnicomp.com/products/rdist/rdist.shtml
