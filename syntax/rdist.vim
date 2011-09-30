@@ -20,7 +20,7 @@ syn region rdistString start=/'/hs=s+1 skip=/\\'/ end=/'/he=e-1
 syn keyword rdistCommand cmdspecial except except_pat install notify special nextgroup=rdistCommandOption
 syn match rdistCommandOption /\<-o\S\+/
 syn match rdistVariable /${[a-zA-Z0-9_]\+}/
-syn match rdistRule /^[a-zA-Z0-9_-]\+\s*:/he=e-1
+syn match rdistRule /^[a-zA-Z0-9_.-]\+\s*:/he=e-1
 
 " Define the default highlighting.
 " For version 5.7 and earlier: only when not done already
