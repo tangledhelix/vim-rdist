@@ -1,6 +1,9 @@
 
 [Vim][] syntax highlighting for [Rdist][].
 
+[vim]: http://www.vim.org/
+[rdist]: http://www.magnicomp.com/products/rdist/rdist.shtml
+
 To install the traditional way:
 
 	git clone https://github.com/tangledhelix/vim-rdist.git
@@ -12,6 +15,8 @@ To install the traditional way:
 
 If you use [Pathogen][]:
 
+[pathogen]: https://github.com/tpope/vim-pathogen
+
 	cd ~/.vim/bundle
 	git clone https://github.com/tangledhelix/vim-rdist.git rdist
 
@@ -20,8 +25,4 @@ for whatever filename(s) you use for Rdist files. It should auto-detect
 `distfile` and `Distfile`.
 
 	autocmd BufNewFile,BufRead distfile.local setfiletype rdist
-
-[vim]: http://www.vim.org/
-[rdist]: http://www.magnicomp.com/products/rdist/rdist.shtml
-[pathogen]: https://github.com/tpope/vim-pathogen
 
