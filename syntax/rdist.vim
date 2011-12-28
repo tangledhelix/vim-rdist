@@ -5,7 +5,7 @@
 " URL:          https://github.com/tangledhelix/vim-rdist
 
 if exists('b:current_syntax')
-	finish
+    finish
 endif
 
 syn match rdistComment /\m#.*/ contains=rdistTodo
