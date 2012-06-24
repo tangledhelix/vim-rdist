@@ -1,11 +1,10 @@
 " Vim syntax file
 " Language:     Rdist
-" Maintainer:   Dan Lowe <dan@tangledhelix.com>
-" Last Change:  4 Dec 2011
+" Maintainer:   Dan Lowe (dan@tangledhelix.com)
 " URL:          https://github.com/tangledhelix/vim-rdist
 
 if exists('b:current_syntax')
-    finish
+  finish
 endif
 
 syn match rdistComment /\m#.*/ contains=rdistTodo
