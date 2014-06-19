@@ -29,6 +29,6 @@ for whatever filename(s) you use for Rdist files. It should auto-detect
 `distfile` and `Distfile`.
 
 ```
-autocmd BufNewFile,BufRead distfile.local setfiletype rdist
+autocmd BufNewFile,BufRead distfile.local set filetype=rdist
 ```
 
